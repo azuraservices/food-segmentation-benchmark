@@ -9,6 +9,9 @@ The repository includes:
 - Performance evaluation using metrics like Dice Score, Jaccard Index, Precision, and Recall.
 - Visualization of segmentation results.
 
+## Gradio Implementation Example
+<img src="results/gradio_implementation.gif" alt="Video demonstration" width="600">
+
 ## Objectives
 - Compare the performance of state-of-the-art deep learning models for food segmentation.
 - Explore the use of pretrained ResNet34 encoders for feature extraction.
@@ -86,10 +89,8 @@ The following models were implemented and evaluated:
 <img src="results/predicted-examples.png" alt="Predicted" width="600">
 
 ## Folder Structure
-- `data/` - Raw and processed datasets.
 - `notebooks/` - Jupyter notebooks for preprocessing, training, and evaluation.
-- `models/` - Trained model weights and architecture files.
-- `src/` - Utility scripts for data handling and model implementation.
+- `docs/` - Documentation files.
 - `results/` - Evaluation metrics and visualizations.
 
 ## How to Use
