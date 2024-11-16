@@ -22,7 +22,10 @@ The **UEC-FoodPixComplete** dataset was used, featuring:
 
 ### Dataset Structure
 - **Raw Images:** Original food images.
+<img src="data/original-images.png" alt="Original" width="600">
+
 - **Segmentation Masks:** Ground truth masks for binary segmentation.
+<img src="data/original-masks.png" alt="Original" width="600">
 
 ## Models
 The following models were implemented and evaluated:
@@ -49,6 +52,10 @@ The following models were implemented and evaluated:
 1. **Data Preprocessing:**
    - Resize images to 512x512.
    - Normalize pixel values.
+   - Image pre-processing
+  
+   <img src="data/augmented-image.png" alt="Original" width="600">
+   
    - Convert segmentation masks to binary format.
 
 2. **Model Training:**
@@ -59,15 +66,24 @@ The following models were implemented and evaluated:
 3. **Evaluation:**
    - Compute metrics: Dice Score, Precision, Recall, and Jaccard Index.
    - Visualize segmentation results.
+   <img src="data/test_result_example.png" alt="Original" width="600">
 
 4. **Comparison:**
    - Analyze performance across models.
    - Generate comparative plots.
+   
+   <img src="results/dlv3plus-train-loss.png" alt="Plot" width="600">
+   <img src="results/dlv3plus-jaccard.png" alt="Plot" width="600">
 
 ## Results
-- **Best Model:** [Insert best-performing model]
-- **Key Metrics:** [Include summary table or highlight performance metrics]
-- **Visualizations:** [Link to example images or plots]
+- **Best Model:** [DeepLabV3+]
+- **Comparison Table:**
+  
+<img src="results/comparison-table.png" alt="Comparison Table" width="600">
+
+- **Visualizations:**
+  
+<img src="results/predicted-examples.png" alt="Predicted" width="600">
 
 ## Folder Structure
 - `data/` - Raw and processed datasets.
@@ -92,11 +108,6 @@ The following models were implemented and evaluated:
 - Extend experiments to multi-class segmentation.
 - Improve model generalization for real-world applications.
 - Explore transformer-based architectures for food segmentation.
-
-## Authors
-- **Stanislao Bellantoni**
-- Supervisor: **Claudio Piciarelli**
-- Supervisor: **Kyamakya Kyandoghere**
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
