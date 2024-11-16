@@ -10,7 +10,7 @@ The repository includes:
 - Visualization of segmentation results.
 
 ## Gradio Implementation Example
-<img src="https://www.dropbox.com/scl/fi/n3ylkniekx0zgduj06i0z/gradio_implementation.gif?rlkey=gra6rssffklcfn97bsiagp7ej&raw=1" alt="Gradio Implementation Demo" width="600">
+https://github.com/user-attachments/assets/97ec6788-c029-4b0d-a3a9-8c4906d3e5d9.mp4
 
 ## Objectives
 - Compare the performance of state-of-the-art deep learning models for food segmentation.
